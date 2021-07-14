@@ -8,6 +8,6 @@ The ***src*** folder contains all the scripts needed for the dependency manageme
 
 # How to Use
 1. Create a class that extends [DependencyMapper](https://github.com/Yarlak/PartyWire/blob/main/src/DependencyMapper.cs) and make sure only a single instance of it exists in the game scene
-2. In the class from Step 1. override the **SetUpDependencySystem()** method to instantiate 
+2. In the class from Step 1. override the [SetUpDependencySystem()](https://github.com/Yarlak/PartyWire/blob/main/src/DependencyMapper.cs#L47) method to create all the objects you want to be 'PartyWireable'
 
 
