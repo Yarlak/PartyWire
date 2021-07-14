@@ -6,6 +6,8 @@ Dependencies of a class that are decorated with the 'PartyWired' attribute can b
 The ***src*** folder contains all the scripts needed for the dependency management system. And the ***Demo*** folder shows an example of how you can implement this system with some simple C# classes.
 
 
-
+# How to Use
+1. Create a class that extends [DependencyMapper](https://github.com/Yarlak/PartyWire/blob/main/src/DependencyMapper.cs) and make sure only a single instance of it exists in the game scene
+2. In the class from Step 1. override the **SetUpDependencySystem()** method to instantiate 
 
 
